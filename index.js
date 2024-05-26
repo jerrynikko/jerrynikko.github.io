@@ -8,7 +8,6 @@ const btnSad1 = document.getElementById("btnSad1")
 const countSad1 = document.getElementById("countSad1")
 const btnWow1 = document.getElementById("btnWow1")
 const countWow1 = document.getElementById("countWow1")
-
 const btnLikes2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 const btnAngry2 = document.getElementById("btnAngry2")
