@@ -18,6 +18,9 @@ const btnSad2 = document.getElementById("btnSad2")
 const countSad2 = document.getElementById("countSad2")
 const btnWow2 = document.getElementById("btnWow2")
 const countWow2 = document.getElementById("countWow2")
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
 
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
@@ -69,6 +72,10 @@ function clickSad2(){
     countWow2.textContent = totalWow2.toString()
   }
 
+function submitComment(){
+commentbox.textContent += comment.value.toString() + "\n"
+}
+
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
 btnAngry1.addEventListener("click",clickAngry1)
@@ -79,4 +86,4 @@ btnSad1.addEventListener("click",clickSad1)
 btnSad2.addEventListener("click",clickSad2)
 btnWow1.addEventListener("click",clickWow1)
 btnWow2.addEventListener("click",clickWow2)
-
+submit.addEventListener("click", submitComment)
