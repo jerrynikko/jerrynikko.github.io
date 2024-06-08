@@ -74,6 +74,7 @@ function clickSad2(){
 
 function submitComment(){
 commentbox.textContent += comment.value.toString() + "\n"
+  comment.value=""
 }
 
 btnLike1.addEventListener("click",clickLike1)
