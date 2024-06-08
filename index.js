@@ -80,14 +80,3 @@ btnSad2.addEventListener("click",clickSad2)
 btnWow1.addEventListener("click",clickWow1)
 btnWow2.addEventListener("click",clickWow2)
 
-const submit document.getElementById("submit")
-
-const comment document.getElementById("comment")
-
-const commentbox document.getElementById("commentbox")
-
-function submitComment(){
-
-commentbox.textContent comment.value.toString() + "\n" }
-
-submit.addEventListener("click", submitComment)
